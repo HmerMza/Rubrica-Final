@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+#body{
+    background-image: url(img/Body.jpg);
+    background-size: 100%;
+}
+#header{
+    background-image: url(img/Header.jpg);
+    background-size: 100%;
+}
+#card-containe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    min-height: 765px;
+}
+
+#card {
+    max-height: 330px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #9adb37;
+    border-radius: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    margin: 35px;
+    
+    text-align: center;
+    font-family: 'Nova Oval', cursive;
+}
+#informacion{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+}
+
+#logo{
+    margin:auto;
+}
+img{
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: calc(33.33% - 40px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: calc(25% - 40px);
+    }
+}

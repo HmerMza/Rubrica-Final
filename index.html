@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="icon" href="https://rickandmortyapi.com/favicon-32x32.png?v=1538abef51e33ef514e8fe1ab9aeab4e"
+        type="image/png">
+    
+    <title>Rick & Morty</title>
+</head>
+<body id="body">
+    <header id="header">
+        <nav class="navbar navbar-expand-lg col-10 col-xl-8 mx-auto">
+
+            <div class="container-fluid col-6 justify-content-start">
+                <a class="navbar-brand" href="#" id="navbar"><img class="rounded mx-auto d-block"
+                        src="https://www.pngplay.com/wp-content/uploads/14/Rick-And-Morty-Logo-Transparent-File.png"
+                        alt="Rick-And-Morty-Logo-Transparent-File" width="220" height="60" id="logo"></a>
+            </div>
+
+            <div class="container-fluid col-6 justify-content-end ">
+                <div class="justify-content-end" id="navbarSupportedContent">
+                    <form class="d-flex" role="search">
+                        <select class="form-select me-2 " id="floatingSelect" aria-label="Floating label select example" onchange="mostrarPersonajes(floatingSelect.value)" ></select>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container" id="card-containe">
+        </div>
+    </main>
+
+    <footer class="text-center align-items-end" id="informacion">
+        <div class="row m-0 p-0">
+            <div class="col mt-3 m-0 p-0">
+                <p>Desarrollado por los Estudiantes</p>
+            </div>
+        </div>
+        <div class="row m-0 p-0 ">
+            <div class="col mb-3">
+                <h5>Hemer Meza</h5>
+            </div>
+            <div class="col m-0 p-0">
+                <h5>Mayerlys Lozano</h5>
+            </div>
+            <div class="col m-0 p-0">
+                <h5>Nallely Bernal</h5>
+            </div>
+        </div>
+
+    </footer>
+        
+  
+
+    <script src="index.js">
+    </script>
+</body>
+</html>
